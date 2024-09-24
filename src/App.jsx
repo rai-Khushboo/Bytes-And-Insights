@@ -3,7 +3,7 @@ function App() {
   
   return (
     <>
-    <h1 className='text-7xl'>Hello Devs</h1>
+    <h1 className='text-7xl'>Hello,Router</h1>
     </>
   )
 }
