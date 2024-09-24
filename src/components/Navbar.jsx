@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom'
+import '../App.css';
 //react icons
 import { FaBars, FaFacebook ,FaDribbble ,FaTwitter, FaXmark} from "react-icons/fa6";
 
@@ -25,7 +26,14 @@ const Navbar = () => {
         <ul className='md:flex gap-12 text-lg hidden'>
             {
                 navItems.map(({path , link}) => <li className='text-white' key={path}>
-                    <NavLink to={path}>{link}
+                    <NavLink className={({isActive , isPending}) =>
+                    isActive
+                ? "active"
+                :  isPending
+                ? "pending"
+                : ""
+                }
+                    to={path}>{link}
                     </NavLink>
                 </li>)
             }
@@ -46,6 +54,21 @@ const Navbar = () => {
                     </button>
             </div>
         </nav>
+        {/* items for the mobile devices */}
+        <div>
+        <ul className={`md:hidden gap-12 text-lg block space-x-4 space-y-4 px-4 py-6 mt-14 bg-white ${isMenuOpen ? "fixed top-0 left-0 w-full transition-all ease-out duration-150" : "hidden"}`}>
+        <div className='w-full'>
+            <ul className='md:hidden gap-12 space-y-4 px-4 py-6 mt-14 bg-white'>
+                {
+                    navItems.map(({path , link}) => <li className='text-black' key={path}>
+                        <NavLink onClick={toggleMenu} to={path}>{link}
+                        </NavLink>
+                    </li>)
+                }
+            </ul>
+        </div>
+        </ul>
+        </div>
     </header>
   )
 }
