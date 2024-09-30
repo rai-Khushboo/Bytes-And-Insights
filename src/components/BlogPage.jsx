@@ -7,7 +7,7 @@ const BlogPage = () => {
 
     useEffect(() => {
         async function fetchBlogs(){
-            let url = `https://localhost:5000/blogs`
+            let url = `http://localhost:5000/blogs`;
             const response = await fetch(url);
             const data = await response.json();
             console.log(data);
@@ -22,7 +22,7 @@ const BlogPage = () => {
 
       {/*blog cards section */}
       <div>
-        <BlogCards/>
+        <BlogCards blogs={blogs}/>
       </div>
       
       {/*pagination section */}
