@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
+import BlogCards from './BlogCards';
 
 const BlogPage = () => {
     const[blogs, setBlogs] = useState([]);
@@ -20,10 +21,12 @@ const BlogPage = () => {
       <div>Page Categoty</div>
 
       {/*blog cards section */}
-      <div></div>
+      <div>
+        <BlogCards/>
+      </div>
       
       {/*pagination section */}
-      <div></div>
+      <div>Pagination</div>
     </div>
   )
 }
