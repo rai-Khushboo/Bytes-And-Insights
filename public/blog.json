@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "First Post",
+      "author": "Author Name",
+      "published_date": "2023-10-01",
+      "category": "Nature",
+      "image": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg"
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+  
