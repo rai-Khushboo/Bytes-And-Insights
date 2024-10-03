@@ -14,6 +14,62 @@
       "published_date": "2023-10-02",
       "category": "Technology",
       "image": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 3,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 4,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 5,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 6,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/20044370/pexels-photo-20044370/free-photo-of-men-sitting-with-laptop-and-working.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "title": "Second Post",
+      "author": "Another Author",
+      "published_date": "2023-10-02",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
   
