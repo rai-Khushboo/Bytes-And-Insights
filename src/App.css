@@ -4,3 +4,7 @@
 .active {
   @apply text-blue-700 underline underline-offset-4;
 }
+
+.active-button{
+  color:red;
+}

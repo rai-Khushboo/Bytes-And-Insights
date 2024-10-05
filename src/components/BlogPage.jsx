@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import BlogCards from './BlogCards';
+import CategorSelection from './CategorSelection';
 
 const BlogPage = () => {
     const [blogs, setBlogs] = useState([]);
@@ -37,10 +38,7 @@ const BlogPage = () => {
     return (
         <div>
             {/* Category section */}
-            <div className='mb-4'>
-                <button className='ml-5 mt-2 font-bold' onClick={() => handleCategoryChange(null)}>All Categories</button>
-                {/* Add more category buttons as needed */}
-            </div>
+            <CategorSelection onSelectPage ={handleCategoryChange} selectedCategory={selectedCategory} activeCategory={activeCategory}/>
 
             {/* Blog cards section */}
             <div>
