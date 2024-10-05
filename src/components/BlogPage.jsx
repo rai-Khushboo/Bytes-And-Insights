@@ -4,7 +4,7 @@ import BlogCards from './BlogCards';
 const BlogPage = () => {
     const [blogs, setBlogs] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const pageSize = 12; // Blogs per page
+    const pageSize = 9; // Blogs per page
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [activeCategory, setActiveCategory] = useState(null);
 
@@ -32,12 +32,13 @@ const BlogPage = () => {
         setActiveCategory(category);
     };
 
+    const totalPages = Math.ceil(blogs.length / pageSize);
+
     return (
         <div>
             {/* Category section */}
             <div className='mb-4'>
-                {/* Add category buttons or links here */}
-                <button onClick={() => handleCategoryChange(null)}>All Categories</button>
+                <button className='ml-5 mt-2 font-bold' onClick={() => handleCategoryChange(null)}>All Categories</button>
                 {/* Add more category buttons as needed */}
             </div>
 
@@ -57,7 +58,10 @@ const BlogPage = () => {
                     Previous
                 </button>
                 <span className='mx-2'>{currentPage}</span>
-                <button onClick={() => handlePageChange(currentPage + 1)}>
+                <button 
+                    onClick={() => handlePageChange(currentPage + 1)} 
+                    disabled={currentPage >= totalPages}
+                >
                     Next
                 </button>
             </div>
