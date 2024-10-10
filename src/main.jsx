@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       {
         path:"/blogs/:id",
         element:<SingleBlog />, 
-        loader: () => fetch('/blog.json')
+        loader: () => fetch(`/blog.json`)
       },
     ]
   },
