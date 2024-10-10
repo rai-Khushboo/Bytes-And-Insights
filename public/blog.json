@@ -1,84 +1,89 @@
 [
-    {
-      "id": 1,
-      "title": "First",
-      "about":"this is the about",
-      "author": "Author Name",
-      "published_date": "2023-10-01",
-      "category": "Nature",
-      "image": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg"
-    },
-    {
-      "id": 2,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Nature",
-      "image": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 3,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Nature",
-      "image": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 4,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Technology",
-      "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 5,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Nature",
-      "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 6,
-      "title": "Second Post",
-     "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Technology",
-      "image": "https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 7,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Technology",
-      "image": "https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 8,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Technology",
-      "image": "https://images.pexels.com/photos/20044370/pexels-photo-20044370/free-photo-of-men-sitting-with-laptop-and-working.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 9,
-      "title": "Second Post",
-      "about":"this is the about",
-      "author": "Another Author",
-      "published_date": "2023-10-02",
-      "category": "Technology",
-      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Exploring Nature",
+    "about": "A journey through the beauty of the natural world.",
+    "author": "John Doe",
+    "published_date": "2024-10-01",
+    "category": "Nature",
+    "image": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg"
+  },
+  {
+    "id": 2,
+    "title": "Tech Innovations",
+    "about": "An insight into the latest in technology and innovation.",
+    "author": "Jane Smith",
+    "published_date": "2024-10-02",
+    "category": "Technology",
+    "image": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 3,
+    "title": "Culinary Adventures",
+    "about": "Discovering flavors from around the world.",
+    "author": "Emily Brown",
+    "published_date": "2024-10-03",
+    "category": "Food",
+    "content": "A blog is an online platform where individuals or organizations share their thoughts, insights, and expertise on various topics. It serves as a creative outlet for writers, allowing them to express their opinions, share experiences, and engage with readers.",
+    "image": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 4,
+    "title": "Mindfulness Practices",
+    "about": "Techniques to cultivate peace and awareness.",
+    "author": "Sarah Johnson",
+    "published_date": "2024-10-04",
+    "category": "Health",
+    "content": "Mindfulness practices can transform your everyday life, offering insights into personal experiences and fostering a deeper connection with oneself.",
+    "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 5,
+    "title": "Travel Diaries",
+    "about": "Adventures and stories from around the globe.",
+    "author": "Michael Lee",
+    "published_date": "2024-10-05",
+    "category": "Travel",
+    "content": "Traveling opens up a world of experiences and cultures, allowing us to explore and learn beyond our familiar surroundings.",
+    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "title": "Fitness Journey",
+    "about": "Sharing tips for a healthier lifestyle.",
+    "author": "Rachel Green",
+    "published_date": "2024-10-06",
+    "category": "Fitness",
+    "image": "https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 7,
+    "title": "Gardening Tips",
+    "about": "How to grow and maintain your garden.",
+    "author": "Chris Adams",
+    "published_date": "2024-10-07",
+    "category": "Gardening",
+    "content": "Gardening is not just a hobby; it's a passion that connects us with nature and enhances our living spaces.",
+    "image": "https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 8,
+    "title": "Creative Writing",
+    "about": "Tips and inspiration for aspiring writers.",
+    "author": "Sophia Turner",
+    "published_date": "2024-10-08",
+    "category": "Writing",
+    "content": "Writing is a powerful way to express oneself and communicate ideas, and it can be an incredibly rewarding experience.",
+    "image": "https://images.pexels.com/photos/20044370/pexels-photo-20044370/free-photo-of-men-sitting-with-laptop-and-working.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 9,
+    "title": "Home Decor Ideas",
+    "about": "Creative ways to enhance your living space.",
+    "author": "Olivia White",
+    "published_date": "2024-10-09",
+    "category": "Home",
+    "content": "Home decor is an expression of personal style, and it can transform a house into a warm and inviting home.",
+    "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600"
+  }
+]
